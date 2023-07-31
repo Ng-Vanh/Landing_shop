@@ -1,0 +1,29 @@
+/* Mobile + tablet */
+@media (max-width: 1023px){
+    .header__menu-list{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__menu-item{
+        margin: 8px 16px -4px 16px;
+    }
+    .header__logo{
+    }
+    .header__logo-link,
+    .header__logo-country,
+    .header__logo-money{
+        
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+
+
+}
+/* Tablet */
+
+@media(min-width: 768px) and (max-width: 1023px){
+
+
+}
