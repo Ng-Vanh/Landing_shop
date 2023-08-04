@@ -446,6 +446,7 @@
 }
 .recommend__item-wrap{
     padding: 16px 4px;
+    margin-bottom: 32px;
 }
 
 .recommend__item-card{
@@ -490,4 +491,72 @@
     animation: fadeIn linear 0.3s;
     background-color: var(--primary-color);
     color: var(--white-color);
+}
+
+/* Footer */
+.footer{
+    margin-top: 32px;
+    padding-bottom: 48px;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 240px;
+}
+.footer__content{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 36px 0 24px 0;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.footer__content-list{
+
+}
+
+.footer__content-item{
+    padding: 5px 0;
+
+}
+
+.footer__content-item-link{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    transition: color linear 0.3s;
+}
+.footer__content-item-link:hover{
+    color: var(--primary-color);
+}
+
+.email-btn-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.email-btn{
+    margin: 36px 0 30px 0;
+    display: flex;
+    height: 28px;
+    position: relative;
+}
+.input__email-btn{
+    border: none;
+    padding: 16px 8px;
+    outline: none;
+}
+
+.submit__email-btn{
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 3.6rem;
+    cursor: pointer;
+}
+.footer__notice{
+    font-size: 1.4rem;
+    color: var(--text-color);
 }
